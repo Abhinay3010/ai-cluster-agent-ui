@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/ai-cluster-agent-ui/', // <-- important for GitHub Pages
+  base: '/ai-cluster-agent-ui/', // important for GitHub Pages
   plugins: [react()]
 })
