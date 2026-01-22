@@ -1,7 +1,8 @@
-import { defineConfig } from "vite";       // ✅ import defineConfig
-import react from "@vitejs/plugin-react"; // ✅ import React plugin
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-export default defineConfig({             // ✅ use defineConfig
+// https://vitejs.dev/config/
+export default defineConfig({
   plugins: [react()],
-  base: "/ai-cluster-agent-ui/"           // ✅ must match repo name
+  base: "/ai-cluster-agent-ui/"
 });
