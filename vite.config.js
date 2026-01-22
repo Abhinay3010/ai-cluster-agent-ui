@@ -1,8 +1,7 @@
-// vite.config.js
-const { defineConfig } = require('vite');
-const react = require('@vitejs/plugin-react');
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-module.exports = defineConfig({
-  base: '/ai-cluster-agent-ui/', // must match your repo name
+export default defineConfig({
   plugins: [react()],
+  base: "/ai-cluster-agent-ui/"   // MUST match repo name
 });
